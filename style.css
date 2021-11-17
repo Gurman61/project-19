@@ -1,0 +1,79 @@
+body
+{
+    background-color: rgb(255, 255, 255);
+}
+
+h1
+{
+    background-color: rgb(233, 188, 11);
+    color: rgb(138, 4, 15);
+}
+
+#show_sketches
+{
+    float: right;
+}
+
+p
+{
+    font-size: 25px;
+    margin-top: 10px;
+    color: white;
+}
+
+h5
+{
+    font-size: 25px;
+    color: red;
+    margin-left: 1000px;
+}
+
+h6
+{
+    font-size: 25px;
+    color: sandybrown;
+    margin-right: 1500px;
+}
+
+canvas
+{
+    border:5px solid white;
+    border-radius: 20px;
+    margin-top: 120px;
+
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes example
+{
+    from
+    {
+        box-shadow: 1px 1px 40px gray;
+    }
+    to
+    {
+        box-shadow: 1px 1px 40px white;
+    }
+}
+
+#copy_right
+{
+    bottom: 0;
+    font-weight: 600;
+    margin-top: 450px;
+    background-color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
+    line-height: 50px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#clear_canvas
+{
+    color: orange;
+    font-size: 20px;
+    background-color: orangered;
+}
